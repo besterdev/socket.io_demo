@@ -1,5 +1,5 @@
 (function connect() {
-  let socket = io.connect("http://localhost:3000");
+  let socket = io.connect("http://localhost:56095");
   let username = document.querySelector("#username");
   let usernameBtn = document.querySelector("#usernameBtn");
   let curUsername = document.querySelector(".card-header");
